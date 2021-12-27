@@ -1,4 +1,4 @@
-# coloring_image
+# ImageFilter
 
 ## Preview
 
