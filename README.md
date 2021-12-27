@@ -1,21 +1,23 @@
 # coloring_image
 
-download: https://drive.google.com/file/d/1gW2JnG_vp1CHg7TIbu2jC8aEhFWfcqEh/view?usp=sharing
+## Preview
 
-RGB값 파일 작성)
+### Original
 
-0 ~ 255 숫자 3개를 한 줄에, 공백을 사용해 작성
+![CAT1](https://user-images.githubusercontent.com/55339366/147478345-dddba700-c238-45b2-a99d-b2f1cf3dd13e.jpg)
 
-ex) 0 255 0
+### Filtered
 
-평가함수 차이)
+![CAT1_watercolor_12](https://user-images.githubusercontent.com/55339366/147478352-b8b78a9f-d269-41a9-8d9e-25f73a7addfd.jpg)
 
-가우시안 : | 픽셀 RGB 값 - 캔버스 RGB 값 (각각 + 으로 연결) |
+## RGB Files
 
-대비 : | (픽셀 RGB 값 - 캔버스 RGB 값( '' ) ^ 2) |
+### 0 0 0 / 255 255 255 
 
-속도 : 가우시안 > 대비
+## Used Modules
 
-정확성 : 대비 > 가우시안
+### numpy, pil, tqdm(trange)
 
-사용 모듈: numpy, pil, tqdm(trange)
+
+
+#### Downloads: https://drive.google.com/file/d/1gW2JnG_vp1CHg7TIbu2jC8aEhFWfcqEh/view?usp=sharing
